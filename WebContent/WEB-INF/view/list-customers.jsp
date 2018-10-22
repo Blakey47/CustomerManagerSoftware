@@ -5,14 +5,19 @@
 <html>
 
 <head>
-	<title>List Customers - Example</title>
+	<title>Customer Manager Software</title>
+	
+	<link type="text/css"
+		  rel="stylesheet"
+		  href="${pageContext.request.contextPath}/resources/css/style.css"/>
+	
 </head>
 
 <body>
 
 	<div id="wrapper">
 		<div id="header">
-			<h2>CRM - Customer Manager Software</h2>
+			<h2>CMS - Customer Manager Software</h2>
 		</div>
 	</div>
 	
