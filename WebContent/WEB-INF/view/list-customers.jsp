@@ -17,7 +17,7 @@
 
 	<div id="wrapper">
 		<div id="header">
-			<h2>CMS - Customer Manager Software</h2>
+			<h2>Customer Manager Software</h2>
 		</div>
 	</div>
 	
