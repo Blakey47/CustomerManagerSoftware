@@ -17,15 +17,15 @@
 		</div>
 	</div>	
 	<div id="container">	
-		<div id="content">
-			<input type="button" value="Refresh"
-				   onclick="window.location.href='/customer/list'; return false;"
-				   class="add-button"
-			/>		
+		<div id="content">		
 			<input type="button" value="Add Customer"
 				   onclick="window.location.href='showFormForAdd'; return false;"
 				   class="add-button"
 			/>	
+			<input type="submit" value="Refresh"
+				   onclick="window.location='${pageContext.request.contextPath}/customer/list';"
+				   class="add-button"
+			/>
 			<form:form action="search" method="POST">
                 Search customer: <input type="text" name="theSearchName" />
                 <input type="submit" value="Search" class="add-button" />
