@@ -34,6 +34,14 @@
 						<td><form:input path="lastName"/></td>
 					</tr>
 					<tr>
+						<td><label>Gender:</label></td>
+						<td><form:input path="gender"/></td>
+					</tr>
+					<tr>
+						<td><label>Occupation:</label></td>
+						<td><form:input path="occupation"/></td>
+					</tr>
+					<tr>
 						<td><label>Email:</label></td>
 						<td><form:input path="email"/></td>
 					</tr>

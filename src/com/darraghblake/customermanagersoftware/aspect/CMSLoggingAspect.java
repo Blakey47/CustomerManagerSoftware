@@ -32,7 +32,17 @@ public class CMSLoggingAspect {
 	// Add @Before Advice Type
 	@Before("forAppFlow()")
 	public void before(JoinPoint theJoinPoint) {
+		
+		System.out.println("123456789");
+		
 		String theMethod = theJoinPoint.getSignature().toShortString();
 		myLogger.info("------> in @Before: calling method: " + theMethod);
+		
+		Object[] args = theJoinPoint.getArgs();
+		
+		for (Object tempArg : args) {
+			myLogger.info("------> argument: " + tempArg);
+		}
 	}
+	
 }

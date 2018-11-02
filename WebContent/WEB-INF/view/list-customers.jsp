@@ -34,6 +34,8 @@
 				<tr>
 					<th>First Name</th>
 					<th>Last Name</th>
+					<th>Gender</th>
+					<th>Occupation</th>
 					<th>Email</th>
 					<th>Action</th>
 				</tr>				
@@ -49,6 +51,8 @@
 					<tr>
 						<td> ${tempCustomer.firstName}</td>
 						<td> ${tempCustomer.lastName}</td>
+						<td> ${tempCustomer.gender}</td>
+						<td> ${tempCustomer.occupation}</td>
 						<td> ${tempCustomer.email}</td>
 						<td>
 							<a href="${updateLink}">Update</a>
